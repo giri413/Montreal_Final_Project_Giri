@@ -1,0 +1,53 @@
+Installation
+Python, pip and Django need to be installed
+
+pip install django
+
+Usage:
+------
+
+
+Installing djangorestframework:     
+
+pip install djangorestframework   
+
+pip install djoser
+
+
+Go to the College-ERP folder and run:    python manage.py runserver   or  python manage.py runserver 0.0.0.0:8000  --> To make public availability
+
+Then go to the browser and enter the url http://127.0.0.1:8000/    or localhost:8000   ---->    As Settings.py edited with Allowed Hosts
+
+local host access:  http://127.0.0.1:8000/admin/
+
+
+For public access:
+
+start the server on static ip address of server(ipv4 from ipconfig /all running on cmd), also add 8000 port for incoming traffic in windows firewall
+
+python manage.py runserver 172.31.12.138:8000   --> now the application is accessible through public with port num accross the world
+
+
+Credentials to login:
+
+Admin:
+-------
+
+user: admin
+password: project123
+
+
+Teacher:
+--------
+http://127.0.0.1:8000/
+
+user: Varsha
+password: project123
+
+
+Student:
+---------
+http://127.0.0.1:8000/
+
+user: zara
+password: project123
